@@ -1,0 +1,42 @@
+{
+  "name": "stream-drm-checker",
+  "version": "1.0.0",
+  "description": "Detect DRM parameters (Widevine/FairPlay) and catalog metadata for media streams on major platforms.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "stream-drm-checker",
+    "streaming",
+    "drm",
+    "widevine",
+    "fairplay",
+    "checks"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeHalogen/stream-drm-checker.git"
+  },
+  "homepage": "https://github.com/MeHalogen/stream-drm-checker#readme"
+}
